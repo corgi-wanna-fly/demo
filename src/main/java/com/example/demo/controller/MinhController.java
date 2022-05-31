@@ -18,4 +18,10 @@ public class MinhController {
     public String minh2(){
         return "congminh2";
     }
+
+    @GetMapping("/minh3")
+    @ResponseBody
+    public String minh3(){
+        return "congminh2";
+    }
 }
