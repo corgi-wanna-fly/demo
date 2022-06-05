@@ -36,4 +36,10 @@ public class MinhController {
     public String minh5(){
         return "congminh2";
     }
+
+    @GetMapping("/minh6")
+    @ResponseBody
+    public String minh6(){
+        return "congminh2";
+    }
 }
